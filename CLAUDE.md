@@ -2,6 +2,14 @@
 
 ## À garder en tête (pas à implémenter sans demande explicite)
 
+### Chiffre précis de Charline : 90+ suivis individuels
+Charline a déjà réalisé **plus de 90 suivis individuels**. À voir ensemble si on met ce chiffre en avant :
+- Actuellement sur le site : carte "Des années d'expérience" → formulation générique ("au fil des années")
+- Option 1 : ajouter le chiffre de façon factuelle ("Plus de 90 femmes accompagnées individuellement")
+- Option 2 : laisser générique (plus pro si le chiffre évolue vite)
+- À décider avec Charline selon ce qui lui paraît juste / engageant
+
+
 ### Masquer les localités dans les textes visibles (décision Charline)
 Charline ne veut pas que les noms de localités (Issoire, Puy-de-Dôme, Le Broc, Champeix, Sauxillanges, etc.) apparaissent dans les textes visibles du site.
 
