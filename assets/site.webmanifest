@@ -1,0 +1,13 @@
+{
+  "name": "Charline Letaut — Coach sport-santé",
+  "short_name": "Charline Letaut",
+  "description": "Coach sport-santé diplômée, spécialisée dans l'accompagnement de la femme à Issoire (63).",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FDFBF7",
+  "theme_color": "#2B2420",
+  "lang": "fr",
+  "icons": [
+    { "src": "/assets/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /assets/draft/
+
+Sitemap: https://charline-letaut.fr/sitemap.xml
