@@ -954,6 +954,96 @@ p {
   margin-top: 2px;
 }
 
+/* ---------- 12b. Bilan postural callout (tarifs) ---------- */
+.bilan-callout {
+  padding: var(--s-7) var(--s-6);
+  background: linear-gradient(135deg, var(--c-beige) 0%, #F5E3D7 100%);
+  border-radius: var(--r-lg);
+  border: 1px solid var(--c-gold);
+  box-shadow: 0 20px 50px var(--c-shadow);
+  text-align: center;
+  position: relative;
+}
+
+.bilan-callout::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--c-gold), var(--c-rose), var(--c-gold));
+  border-radius: var(--r-lg) var(--r-lg) 0 0;
+}
+
+.bilan-callout__badge {
+  display: inline-block;
+  padding: 0.5rem 1.2rem;
+  background: var(--c-anthracite);
+  color: var(--c-cream);
+  font-family: var(--f-display);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  border-radius: var(--r-full);
+  margin-bottom: var(--s-5);
+}
+
+.bilan-callout h2 {
+  margin-bottom: var(--s-4);
+}
+
+.bilan-callout .lead {
+  max-width: 640px;
+  margin: 0 auto var(--s-6);
+  color: var(--c-taupe);
+}
+
+.bilan-benefits {
+  display: grid;
+  gap: var(--s-4);
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  margin: var(--s-6) 0 var(--s-5);
+  text-align: left;
+}
+
+.bilan-benefit {
+  padding: var(--s-5);
+  background: var(--c-white);
+  border-radius: var(--r-md);
+  border: 1px solid var(--c-border);
+  transition: transform var(--t-base), border-color var(--t-base);
+}
+
+.bilan-benefit:hover {
+  transform: translateY(-3px);
+  border-color: var(--c-gold);
+}
+
+.bilan-benefit h3 {
+  font-family: var(--f-display);
+  font-size: 1.05rem;
+  text-transform: none;
+  letter-spacing: -0.01em;
+  margin-bottom: var(--s-2);
+  color: var(--c-anthracite);
+}
+
+.bilan-benefit p {
+  font-size: 0.92rem;
+  margin: 0;
+  color: var(--c-taupe);
+  line-height: 1.6;
+}
+
+.bilan-callout__note {
+  max-width: 620px;
+  margin: 0 auto var(--s-5);
+  font-style: italic;
+  color: var(--c-taupe);
+}
+
 /* ---------- 13. FAQ ---------- */
 .faq {
   max-width: 800px;
