@@ -2,6 +2,25 @@
 
 ## À garder en tête (pas à implémenter sans demande explicite)
 
+### Masquer les localités dans les textes visibles (décision Charline)
+Charline ne veut pas que les noms de localités (Issoire, Puy-de-Dôme, Le Broc, Champeix, Sauxillanges, etc.) apparaissent dans les textes visibles du site.
+
+**Action prévue** (à faire sur demande) :
+- Parcourir tous les textes visibles (H1, H2, paragraphes, CTA, accroches) et retirer les mentions directes des communes
+- Conserver dans les balises techniques invisibles (meta title/description, JSON-LD, canonical URL, alt d'images) pour ne pas détruire le SEO local
+- Garder la page "Zone d'intervention" intacte (c'est son rôle d'afficher les communes)
+- Réflexion à valider avec Charline : garder quand même "à Issoire" ou "dans le Puy-de-Dôme" dans les titres de pages (balise title) pour le SEO, mais pas dans le corps visible
+
+**Fait ponctuellement jusqu'à présent** :
+- `index.html` bloc teaser "Qui suis-je" : retiré "d'Issoire et du Puy-de-Dôme"
+
+**À faire quand on fera le pass complet** :
+- Hero index.html
+- Section "Zone d'intervention" sur home (mais c'est le bloc "cliquez pour voir les communes" donc ok pour l'instant)
+- a-propos.html (plusieurs mentions)
+- prestations.html, tarifs.html, contact.html
+- Les 3 pages locales pilates/grossesse/ménopause Issoire → décision stratégique à prendre car ces pages EXISTENT pour le SEO local. Si on retire Issoire du contenu on perd tout l'intérêt. À discuter.
+
 ### Double univers de Charline
 Charline travaille sur **deux univers complémentaires** qu'on n'a pas encore reflété dans le site :
 
