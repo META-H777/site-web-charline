@@ -491,12 +491,53 @@ p {
   aspect-ratio: 4 / 5;
   border-radius: var(--r-lg);
   overflow: hidden;
-  background:
-    linear-gradient(135deg, rgba(201, 168, 118, 0.1), rgba(232, 197, 176, 0.35)),
-    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 500'><defs><linearGradient id='g' x1='0%25' y1='0%25' x2='100%25' y2='100%25'><stop offset='0%25' stop-color='%23F5D5C3'/><stop offset='100%25' stop-color='%23E8C5B0'/></linearGradient></defs><rect width='400' height='500' fill='url(%23g)'/><g stroke='%23C9A876' stroke-width='1.5' fill='none' opacity='0.4'><circle cx='200' cy='250' r='140'/><circle cx='200' cy='250' r='100'/><circle cx='200' cy='250' r='60'/></g></svg>");
-  background-size: cover;
-  background-position: center;
+  background: linear-gradient(135deg, #FDFBF7 0%, #F8EAE0 100%);
   box-shadow: 0 30px 80px var(--c-shadow-strong);
+}
+
+.hero__clouds {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  pointer-events: none;
+}
+
+.hero__cloud {
+  transform-origin: center;
+  will-change: transform;
+}
+
+.hero__cloud--1 { animation: heroFloat1 14s ease-in-out infinite; }
+.hero__cloud--2 { animation: heroFloat2 11s ease-in-out infinite; }
+.hero__cloud--3 { animation: heroFloat3 17s ease-in-out infinite; }
+.hero__cloud--4 { animation: heroFloat4 13s ease-in-out infinite; }
+.hero__cloud--5 { animation: heroFloat5 9s ease-in-out infinite; }
+
+@keyframes heroFloat1 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(12px, -18px) scale(1.03); }
+}
+@keyframes heroFloat2 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(-16px, 14px) scale(1.05); }
+}
+@keyframes heroFloat3 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(-10px, -12px) scale(1.04); }
+}
+@keyframes heroFloat4 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(14px, 20px) scale(1.02); }
+}
+@keyframes heroFloat5 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(-6px, -14px) scale(1.12); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero__cloud { animation: none !important; }
 }
 
 .hero__badge {
@@ -524,12 +565,12 @@ p {
 
 .hero__badge--top {
   top: var(--s-5);
-  left: -20px;
+  left: var(--s-5);
 }
 
 .hero__badge--bottom {
   bottom: var(--s-5);
-  right: -20px;
+  right: var(--s-5);
 }
 
 @media (min-width: 768px) {
@@ -539,12 +580,6 @@ p {
   .hero__grid {
     grid-template-columns: 1.1fr 1fr;
     gap: var(--s-8);
-  }
-  .hero__badge--top {
-    left: -40px;
-  }
-  .hero__badge--bottom {
-    right: -40px;
   }
 }
 
