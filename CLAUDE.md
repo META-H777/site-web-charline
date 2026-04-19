@@ -2,6 +2,21 @@
 
 ## À garder en tête (pas à implémenter sans demande explicite)
 
+### Tarifs B2B indicatifs (référence privée pour Charline)
+Recherchés via Perplexity (données Teamupp, Koacher, Fithealthy 2024-2025). **Pas à afficher sur le site** (Charline veut rester "sur devis" uniquement). Fourchettes à utiliser pour devis :
+
+| Prestation | France moyenne | Auvergne-Rhône-Alpes (conseillé pour Charline) |
+|---|---|---|
+| Séance individuelle salarié (1h) | 70-90 € HT | **60-80 € HT** |
+| Cours collectif (5-15 pers, 1h) | 100-300 € HT | **150-250 € HT** |
+| Team-building demi-journée | 500-600 € HT | idem |
+| Programme bien-être mensuel (PME 20-50) | 1 000-2 000 € HT/mois | **800-1 500 € HT** |
+| Bilan postural / diagnostic QVT | 70-120 € HT/séance | **60-90 € HT** |
+
+Positionnement conseillé : bas de fourchette AuRA pour rentrer sur le marché, ajuster à la hausse après premiers clients.
+
+
+
 ### Chiffre précis de Charline : 90+ suivis individuels
 Charline a déjà réalisé **plus de 90 suivis individuels**. À voir ensemble si on met ce chiffre en avant :
 - Actuellement sur le site : carte "Des années d'expérience" → formulation générique ("au fil des années")
