@@ -1,0 +1,42 @@
+# Contexte du projet — Site Charline Letaut
+
+## À garder en tête (pas à implémenter sans demande explicite)
+
+### Double univers de Charline
+Charline travaille sur **deux univers complémentaires** qu'on n'a pas encore reflété dans le site :
+
+1. **Sport-santé** — l'accompagnement bien-être, grossesse, ménopause, pathologies féminines (endométriose, SOPK, ostéoporose). C'est ce qui est actuellement sur le site.
+2. **Sport-performance** — accompagnement d'objectifs de performance, compétition, progression sportive. **Pas encore représenté sur le site**.
+
+→ Quand on aura les vraies infos de Charline, réfléchir à une architecture qui couvre les deux sans diluer son positionnement. Options à discuter à ce moment-là :
+- Deux sections distinctes bien séparées sur la home
+- Deux parcours utilisateurs ("vous cherchez bien-être" vs "vous visez la perf")
+- Deux pages prestations dédiées
+
+**Ne pas mettre en place tant que Charline n'a pas confirmé la stratégie.**
+
+## Ton général du site
+- Site vitrine pour coach à Issoire (63500)
+- Ton actuel : wellness premium, bienveillant, spécialisé femme
+- Attention : l'accroche hero a été élargie à "pensé pour tous" (cohérence à retravailler selon décision de Charline)
+
+## Positionnement SEO actuel
+Fortement axé "coach femme" (titres, metas, mots-clés, 3 pages locales grossesse/ménopause/pilates). À repositionner si Charline veut ouvrir au sport-perf ou aux hommes.
+
+## Infos techniques
+- Hébergé temporairement sur GitHub Pages : https://meta-h777.github.io/site-web-charline/
+- Migration finale prévue sur Hostinger
+- Cache-busting : version `?v=X` à bumper sur CSS/JS/assets à chaque push qui modifie ces fichiers
+- Meta `Cache-Control: no-cache, must-revalidate` sur le HTML → revalidation à chaque visite
+
+## Workflow de feedback Charline
+Romain reçoit les retours de Charline, me les transmet dans ce chat. Je modifie, commit, push, bump la version. Charline rafraîchit et voit les changements sous 1-2 min.
+
+## Ce qui reste à collecter auprès de Charline
+- Photos pro (remplacer les placeholders nuages)
+- Intitulé exact des diplômes/formations
+- Témoignages clientes
+- Packs long terme : prix précis
+- Google My Business (à créer si absent)
+- Liens réseaux sociaux
+- Décision stratégique : sport-santé uniquement vs double univers
