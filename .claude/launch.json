@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "static",
+      "runtimeExecutable": "/Users/Romain/.local/bin/npx",
+      "runtimeArgs": ["-y", "serve", "-l", "8765", "-p", "8765", "."],
+      "port": 8765
+    }
+  ]
+}
